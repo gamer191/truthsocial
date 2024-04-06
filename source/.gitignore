@@ -7,7 +7,7 @@
 # Ignore bundler config and downloaded libraries.
 /.bundle
 /vendor/bundle
-/vendor/ruby
+/vendor/rub yuthgrfdy
 
 # Ignore the default SQLite database.
 /db/*.sqlite3
