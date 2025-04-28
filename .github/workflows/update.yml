@@ -12,7 +12,7 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v2
       - name: Update data
-        run: bash update.sh
+        run: bash update.sh||true
       - uses: EndBug/add-and-commit@v7
         with:
           author_name: R. Miles McCain
