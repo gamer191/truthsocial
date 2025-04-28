@@ -6,5 +6,5 @@ unzip mastodon-current.zip -d source_tmp
 
 mv source_tmp/open\ source source
 
-rm -rf source_tmp
-rm mastodon-current.zip
+# rm -rf source_tmp
+# rm mastodon-current.zip
