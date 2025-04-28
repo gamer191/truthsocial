@@ -1,7 +1,7 @@
 rm -rf source
 rm -rf source_tmp
 
-pipx install yt-dlp[main]
+pipx install yt-dlp[curl_cffi]
 yt-dlp --impersonate chrome https://opensource.truthsocial.com/mastodon-current.zip -o "mastodon-current.zip" --compat-options allow-unsafe-ext
 unzip mastodon-current.zip -d source_tmp
 
