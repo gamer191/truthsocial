@@ -18,3 +18,63 @@ jobs:
           author_name: R. Miles McCain
           author_email: github@sendmiles.email
           message: 'Update source'
+  one:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v2
+      - name: Update data
+        run: bash update.sh
+      - uses: EndBug/add-and-commit@v7
+        with:
+          author_name: R. Miles McCain
+          author_email: github@sendmiles.email
+          message: 'Update source'
+  two:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v2
+      - name: Update data
+        run: bash update.sh
+      - uses: EndBug/add-and-commit@v7
+        with:
+          author_name: R. Miles McCain
+          author_email: github@sendmiles.email
+          message: 'Update source'
+  three:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v2
+      - name: Update data
+        run: bash update.sh
+      - uses: EndBug/add-and-commit@v7
+        with:
+          author_name: R. Miles McCain
+          author_email: github@sendmiles.email
+          message: 'Update source'
+  four:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v2
+      - name: Update data
+        run: bash update.sh
+      - uses: EndBug/add-and-commit@v7
+        with:
+          author_name: R. Miles McCain
+          author_email: github@sendmiles.email
+          message: 'Update source'
+  five:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v2
+      - name: Update data
+        run: bash update.sh
+      - uses: EndBug/add-and-commit@v7
+        with:
+          author_name: R. Miles McCain
+          author_email: github@sendmiles.email
+          message: 'Update source'
